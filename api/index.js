@@ -39,6 +39,7 @@ app.post("/api/calculate", (req, res) => {
         break;
       case "/":
         result = num2==0?0:num1/num2;
+        break;
       default:
         throw new Error("Invalid operation");
     }
